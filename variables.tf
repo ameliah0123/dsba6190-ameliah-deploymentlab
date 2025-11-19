@@ -37,7 +37,7 @@ variable "environment" {
 variable "student_name" {
   description = "Application Name"
   type        = string
-  default     = "ameliah"
+  default     = "aho3"
 }
 
 variable "class_name" {
