@@ -73,7 +73,7 @@ resource "azurerm_mssql_database" "db" {
   collation   = "SQL_Latin1_General_CP1_CI_AS"
   max_size_gb = 1
   read_scale  = false
-  sku_name    = "Basic"
+  sku_name    = "Standard"
 }
 
 // Storage Account
